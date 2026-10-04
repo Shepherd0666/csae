@@ -492,9 +492,8 @@ button {
 .corps_boutique .liensite {
     margin: auto;
     display: flex;
-    align-items: end;
     margin-bottom: 50px;
-}
+}   
 
 #liencommande {
     margin-bottom: 20px;
@@ -569,4 +568,15 @@ button {
 .champ input[readonly] {
     background-color: #e5e7eb;
     cursor: not-allowed;
+}
+
+.bienvisible {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #16a34a;
+    color: white;
+}
+
+.bienvisible:hover {
+    background-color: #15803d;
 }
